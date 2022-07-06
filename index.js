@@ -30,7 +30,7 @@ module.exports = function (options) {
     function logRequest() {
 
       if (skip !== false && skip(req, res)) {
-        return next();
+        return
       }
 
       var data = {
