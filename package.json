@@ -1,0 +1,30 @@
+{
+  "name": "qrvey_nodejs_express_logger_agent",
+  "version": "1.0.0",
+  "description": "HTTPS request logger for NodeJS/Express application where data is stored in Qrvey Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qrvey/qrvey_nodejs_express_logger_agent.git"
+  },
+  "keywords": [
+    "qrvey",
+    "nodejs",
+    "express",
+    "logger"
+  ],
+  "author": "Qrvey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qrvey/qrvey_nodejs_express_logger_agent/issues"
+  },
+  "homepage": "https://github.com/qrvey/qrvey_nodejs_express_logger_agent#readme",
+  "dependencies": {
+    "on-finished": "^2.4.1",
+    "on-headers": "^1.0.2",
+    "uuid": "^8.3.2"
+  }
+}
