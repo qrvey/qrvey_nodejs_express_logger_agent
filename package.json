@@ -1,6 +1,6 @@
 {
   "name": "qrvey_nodejs_express_logger_agent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTTPS request logger for NodeJS/Express application where data is stored in Qrvey Platform",
   "main": "index.js",
   "scripts": {
