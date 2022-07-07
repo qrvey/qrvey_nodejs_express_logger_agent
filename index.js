@@ -2,6 +2,7 @@ const https = require('https');
 const { v4: uuidv4 } = require('uuid');
 const onFinished = require('on-finished')
 const onHeaders = require('on-headers');
+const { ifError } = require('assert');
 
 /*
 This code has been adapted from Morgan Logging Package
@@ -49,6 +50,7 @@ module.exports = function (options) {
         responsetime: getResponseTime(req, res),
         totaltime: getTotalTime(req, res)
       }
+      if (options.meta) data.meta = options.meta;
 
       var postData = JSON.stringify(data)
       //console.log(postData)
