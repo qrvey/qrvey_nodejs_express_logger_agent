@@ -35,7 +35,7 @@ module.exports = function (options) {
       }
 
       var data = {
-        id: uuidv4(),
+        dataId: uuidv4(),
         targetDatasetId: options.datasetId,
         eventType: "API",
         timestamp: new Date().toISOString(),
